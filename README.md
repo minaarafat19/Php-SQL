@@ -13,7 +13,7 @@
 
 
 -Question 4:
-    SELECT sport.nom ,personnage.nom,peronnage_sport.id_sport, voiture.nom FROM peronnage_sport RIGHT JOIN personnage on id_personnage=peronnage_sport.id_personnage where nom LIKE('FootBall') AND RIGHTJOIN sport on id_sport=peronnage_sport.id_sport RIGHT JOIN voiture on id_voiture=peronnage_sport.id_voiture WHERE nom LIKE('sous-marin');
+    SELECT sport.nom ,personnage.nom,peronnage_sport.id_sport, voiture.nom FROM peronnage_sport RIGHT JOIN personnage on id_personnage=peronnage_sport.id_personnage where nom LIKE('concours de manger de pate crabe')  RIGHTJOIN sport on id_sport=peronnage_sport.id_sport RIGHT JOIN voiture on id_voiture=peronnage_sport.id_voiture WHERE nom LIKE('sous-marin');
  
  
   
